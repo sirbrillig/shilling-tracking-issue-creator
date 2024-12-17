@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Shilling Tracking Issue Creator
 // @namespace    https://github.com/sirbrillig/shilling-tracking-issue-creator
-// @version      1.0.0
+// @version      1.0.3
 // @description  Adds a Shilling Github Tracking issue for a GitHub Enterprise PR
 // @author       Payton Swick <payton@foolord.com>
 // @match        https://github.a8c.com/Automattic/*/pull/*

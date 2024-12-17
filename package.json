@@ -1,6 +1,6 @@
 {
 	"name": "shilling-tracking-issue-creator",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "A Tampermonkey script to add an Automattic Shilling Team Github Tracking issue",
 	"main": "shilling-tracking-issue-creator.user.js",
 	"scripts": {
