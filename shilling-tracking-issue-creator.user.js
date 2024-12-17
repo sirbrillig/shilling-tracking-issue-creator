@@ -4,7 +4,7 @@
 // @version      1.0.0
 // @description  Adds a Shilling Github Tracking issue for a GitHub Enterprise PR
 // @author       Payton Swick <payton@foolord.com>
-// @match        https://github.a8c.com/Automattic/wpcom/pull/*
+// @match        https://github.a8c.com/Automattic/*/pull/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=a8c.com
 // @grant        none
 // ==/UserScript==
