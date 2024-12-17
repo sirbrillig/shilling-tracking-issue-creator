@@ -1,0 +1,24 @@
+{
+	"name": "shilling-tracking-issue-creator",
+	"version": "1.0.2",
+	"description": "A Tampermonkey script to add an Automattic Shilling Team Github Tracking issue",
+	"main": "shilling-tracking-issue-creator.user.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sirbrillig/shilling-tracking-issue-creator.git"
+	},
+	"keywords": ["github", "tampermonkey", "greasemonkey"],
+	"author": "Payton Swick <payton@foolord.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/sirbrillig/shilling-tracking-issue-creator/issues"
+	},
+	"homepage": "https://github.com/sirbrillig/shilling-tracking-issue-creator#readme",
+	"devDependencies": {
+		"eslint": "^8.10.0",
+		"prettier": "2.5.1"
+	}
+}
