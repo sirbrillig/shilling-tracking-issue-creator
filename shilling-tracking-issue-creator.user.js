@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Shilling Tracking Issue Creator
 // @namespace    https://github.com/sirbrillig/shilling-tracking-issue-creator
-// @version      1.0.3
+// @version      1.1.0
 // @description  Adds a Shilling Github Tracking issue for a GitHub Enterprise PR
 // @author       Payton Swick <payton@foolord.com>
 // @match        https://github.a8c.com/Automattic/*/pull/*
@@ -37,9 +37,12 @@
 	// This is the Shilling project board:
 	// https://github.com/orgs/Automattic/projects/655/views/1
 	const project = 'Automattic/655';
+	const trackingLabel = 'github.a8c%20Tracking%20Issue';
 	const githubUrl = `https://github.com/Automattic/payments-shilling/issues/new?title=${encodeURIComponent(
 		titleAreaText,
-	)}&body=${encodeURIComponent(document.location.href)}&projects=${project}`;
+	)}&body=${encodeURIComponent(
+		document.location.href,
+	)}&projects=${project}&labels=${trackingLabel}`;
 
 	// Create a button that makes the tracking issue.
 	const button = document.createElement('button');
